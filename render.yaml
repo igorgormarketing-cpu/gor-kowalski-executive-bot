@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: gor-kowalski-assistant
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node bot.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        value: AIzaSyCi737y1NejDeK-CgvxuvXXrucsmgoyuE8
+      - key: PORT
+        value: 3000
