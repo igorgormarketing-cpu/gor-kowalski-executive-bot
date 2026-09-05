@@ -1,5 +1,9 @@
-﻿node_modules/
+node_modules/
 temp/
 temp_audio/
 .env
 *.log
+
+auth_session/
+memory/
+data/
