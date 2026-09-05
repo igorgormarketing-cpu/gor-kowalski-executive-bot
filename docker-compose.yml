@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  kowalski:
+    build: .
+    container_name: kowalski_super_agent
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - TZ=Asia/Jerusalem
+    volumes:
+      - ./auth_info_baileys:/usr/src/app/auth_info_baileys
+      - ./crm_leads.json:/usr/src/app/crm_leads.json
+      - ./logs:/usr/src/app/logs

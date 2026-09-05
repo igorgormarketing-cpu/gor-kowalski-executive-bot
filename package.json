@@ -1,0 +1,32 @@
+{
+  "name": "gor-executive-whatsapp-assistant-kowalski",
+  "version": "1.0.0",
+  "description": "KOWALSKI - Executive AI Chief of Staff & WhatsApp Assistant for Igor Goralkin (GOR MARKETING)",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": [
+    "ai",
+    "whatsapp",
+    "kowalski",
+    "gor-marketing",
+    "executive-assistant"
+  ],
+  "author": "Igor Goralkin - GOR MARKETING",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@supabase/supabase-js": "^2.115.0",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.7.9",
+    "docx": "^8.5.0",
+    "dotenv": "^16.4.7",
+    "ics": "^3.12.0",
+    "node-cron": "^3.0.3",
+    "pdf-lib": "^1.17.1",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
