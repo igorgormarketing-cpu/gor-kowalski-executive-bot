@@ -40,5 +40,5 @@ module.exports = {
     TEMP_DIR: path.join(__dirname, 'temp')
   },
 
-  GEMINI_API_KEY: process.env.GEMINI_API_KEY || 'AIzaSyCi737y1NejDeK-CgvxuvXXrucsmgoyuE8'
+  GEMINI_API_KEY: process.env.GEMINI_API_KEY || ''
 };
