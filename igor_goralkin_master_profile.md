@@ -9,7 +9,7 @@
 * **טלפון ישיר / וואטסאפ:** `052-5155598` (972525155598).
 * **אתר רשמי:** [www.gormarketing.com](https://www.gormarketing.com/)
 * **מערכת ניהול לקוחות (CRM):** [gorcrm.netlify.app](https://gorcrm.netlify.app/)
-* **כתובות מייל:** `igor@gormarketing.com` | `igorgor.marketing@gmail.com`
+* **כתובות מייל:** `igor@gormarketing.com` | `gmarketingsupp@gmail.com`
 * **פרופיל עסקי מאומת (Google Business Profile):** [קישור לפרופיל GMB](https://share.google/1yfqsihbng2PGnXTg)
 
 ---
